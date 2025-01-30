@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outline-text { 
+     -webkit-text-stroke: 1px #58E6D9 ; 
+     text-stroke: 1px #58E6D9; 
+     color: transparent;
+   } 
+
+ 
+
+ 
+
+  
