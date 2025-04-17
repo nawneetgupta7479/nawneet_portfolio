@@ -30,26 +30,7 @@ export default function Home() {
             {/* Profile Picture and Icons */}
            {/* Profile Picture and Icons */}
 {/* Profile Picture Section */}
-<div className="relative flex flex-col items-center space-y-3">
-  {/* Background Circle with Gradient */}
-  <div className="absolute w-44 h-44 md:w-50 md:h-50 bg-gradient-to-r from-blue-600 to-purple-500 rounded-full -z-10"></div>
-  
-  {/* Profile Image (Reduced Size) */}
-  <div className="relative w-36 h-36 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 rounded-full overflow-hidden shadow-lg border-[3px] border-white dark:border-gray-700 flex items-center justify-center">
-    <Image
-      src={profilepic}
-      alt="Profile Picture"
-      width={500}
-      height={500}
-      className="rounded-full object-cover scale-75" // <-- Reduced size inside
-    />
-  </div>
 
-  {/* Icons Section */}
-  <div className="flex gap-3 justify-center">
-    <ProgrammingSkillsIcons className="text-3xl md:text-4xl text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-all duration-200 ease-in-out" />
-  </div>
-</div>
 
 
             {/* Introduction Section */}
