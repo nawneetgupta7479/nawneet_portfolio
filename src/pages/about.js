@@ -89,7 +89,7 @@ const About = () => {
                 <li>
                   <strong>Bachelor of Technology (B.Tech)</strong> - Birsa Institute of Technology, Dhanbad
                   <br />
-                  <span className="text-gray-600 dark:text-gray-300">202X - Present</span>
+                  <span className="text-gray-600 dark:text-gray-300">2023-2027 (Present)</span>
                 </li>
                 <li>
                   <strong>High School Diploma</strong> - Subhash Public School, Giridih
