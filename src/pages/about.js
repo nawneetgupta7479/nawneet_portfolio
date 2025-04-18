@@ -92,7 +92,7 @@ const About = () => {
                   <span className="text-gray-600 dark:text-gray-300">2023-2027 (Present)</span>
                 </li>
                 <li>
-                  <strong>High School Diploma</strong> - Subhash Public School, Giridih
+                  <strong>High School Intermediate</strong> - Subhash Public School, Giridih
                   <br />
                   <span className="text-gray-600 dark:text-gray-300">Completed in 2023</span>
                 </li>
