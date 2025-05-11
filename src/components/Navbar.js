@@ -79,7 +79,7 @@ const Navbar = () => {
         {/* Icons */}
         <div className="hidden md:flex items-center gap-4 text-[1.4rem]">
           <motion.div whileHover={{ y: -2, scale: 1.3 }} whileTap={{ scale: 0.9 }}>
-            <Link href="https://www.linkedin.com/in/nawneet-gupta-50aa95290/" target="_blank">
+            <Link href="https://www.linkedin.com/in/nawneet-kumar-gupta-50aa95290/" target="_blank">
               <LinkedInIcon />
             </Link>
           </motion.div>

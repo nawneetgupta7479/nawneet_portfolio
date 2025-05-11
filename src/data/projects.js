@@ -1,8 +1,38 @@
 // data/projects.js
 
-import { SiMongodb, SiExpress, SiReact, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { SiMongodb, SiExpress, SiReact, SiNextdotjs, SiTailwindcss, SiNeo4J } from "react-icons/si";
 
 export const projects = [
+  {
+    name: "CareerCraft AI",
+    videoUrl: "/videos/careercraftai.mp4",
+    description:
+      "CareerCraft AI is a comprehensive career development platform powered by artificial intelligence. This full-stack application helps job seekers and professionals optimize their career journey with powerful AI-assisted tools.",
+    githubLink: "https://github.com/nawneetgupta7479/CarrerCraft_ai",
+    liveLink: "https://carrer-craft-ai.vercel.app/",
+    technologies: [
+      { name: "neondb", icon: <SiNeo4J className="w-6 h-6 text-green-600" /> },
+      { name: "Shadcn ui", icon: <SiExpress className="w-6 h-6 text-gray-800" /> },
+      { name: "React", icon: <SiReact className="w-6 h-6 text-blue-500" /> },
+      { name: "Next.js", icon: <SiNextdotjs className="w-6 h-6 text-black" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6 text-blue-500" /> },
+    ],
+  },
+  {
+    name: "CodeSnippetUI",
+    videoUrl: "/videos/codesnippet.mp4",
+    description:
+      "CodeSnippetUI provides ready-to-use, responsive, and customizable React + TypeScript components (like Cards and Layouts) for efficient UI development with built-in accessibility.",
+    githubLink: "https://github.com/nawneetgupta7479/react_ui",
+    liveLink: "https://react-ui-ivpi.vercel.app/",
+    technologies: [
+    
+      { name: "Shadcn ui", icon: <SiExpress className="w-6 h-6 text-gray-800" /> },
+      { name: "React", icon: <SiReact className="w-6 h-6 text-blue-500" /> },
+      { name: "Next.js", icon: <SiNextdotjs className="w-6 h-6 text-black" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6 text-blue-500" /> },
+    ],
+  },
   {
     name: "Food Delivery",
     videoUrl: "/videos/food_delivery.mp4",
@@ -19,18 +49,21 @@ export const projects = [
     ],
   },
   {
-    name: "KoinX ",
-    videoUrl: "/videos/koinX.mp4",
+    name: "Person_ai",
+    videoUrl: "/videos/personaai.mp4",
     description:
-      "A frontend clone of the KoinX platform built with Next.js, focusing on real-time cryptocurrency price tracking. This project displays live prices of Bitcoin and other popular coins, offering users a seamless and responsive experience to monitor market fluctuations.",
-    githubLink: "https://github.com/nawneetgupta7479/koinX_frontend_assignment",
-    liveLink: "https://koin-x-frontend-assignment-eta.vercel.app/",
+      "CodeGuru Mentor is an AI chat application that simulates conversations with popular Indian coding instructors. Using Google's Gemini AI model, it creates authentic interactions in Hinglish (Hindi-English) that match the teaching styles of well-known programming mentors Hitesh Choudhary and Piyush Garg.",
+    githubLink: "https://github.com/nawneetgupta7479/persona_ai",
+    liveLink: "https://persona-ai-k2la.vercel.app/",
     technologies: [
+      
+     
       { name: "React", icon: <SiReact className="w-6 h-6 text-blue-500" /> },
       { name: "Next.js", icon: <SiNextdotjs className="w-6 h-6 text-black" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6 text-blue-500" /> },
     ],
   },
+  
   {
     name: "Razorpay Payment Gateway frontend clone",
     videoUrl: "/videos/razorpay.mp4",
@@ -41,6 +74,19 @@ export const projects = [
     technologies: [
      
       { name: "React", icon: <SiReact className="w-6 h-6 text-blue-500" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6 text-blue-500" /> },
+    ],
+  },
+  {
+    name: "City Computers",
+    videoUrl: "/videos/mdcomputers.mp4",
+    description:
+      "City Computers is a sleek and responsive React e-commerce landing page showcasing computer hardware. Features a modern UI with Tailwind CSS, smooth animations (Framer Motion), product showcases, and interactive sliders (Swiper).",
+    githubLink: "https://github.com/nawneetgupta7479/md_computers",
+    liveLink: "https://md-computers.vercel.app/shop",
+    technologies: [
+     
+      { name: "React+vite", icon: <SiReact className="w-6 h-6 text-blue-500" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6 text-blue-500" /> },
     ],
   },
